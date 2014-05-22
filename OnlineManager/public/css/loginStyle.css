@@ -1,0 +1,78 @@
+@font-face { font-family: ComicSans; src: url('../public/font/ComicSans.ttf');}
+@font-face { font-family: GeorgiaFont; src: url('../public/font/Georgia.ttf');}
+
+body 
+{
+	height: 100%;
+	position:relative;
+	margin: 0;
+	padding: 0;
+	background-color:#153f65;
+}
+
+#loginForm
+{
+	background-color: #072242;
+	width: 440px;
+	height: 303px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left:auto;
+	margin-bottom: 0px; 
+}
+
+#loginImage
+{
+	float: left;
+	background:url(../public/images/logoImage.png) no-repeat;
+	width: 100px;
+	height: 96px;
+	margin: 8px;
+}
+#loginText
+{
+	font-family:ComicSans;
+	font-size:36px;
+	vertical-align: middle; 
+	text-align: center;
+	line-height: 96px;
+	color: #70bcf6;
+	height: 96px;
+}
+#loginField
+{
+	width: auto;
+	height: auto;
+	margin-top: 18px;
+	display: inline-block;
+}
+.textField
+{
+	background-color: #153f65;
+	color: #70bcf6;
+	width: 50%;
+	height: auto;
+	margin-left: auto;
+	font-family:ComicSans;
+	font-size: 20px;
+	margin-bottom: 20px;
+	border-color: transparent;
+}
+
+#loginContent
+{
+	float:right;
+	margin-right: 10px;
+	height: auto;
+	width: auto;
+}
+
+.submitButton
+{
+	margin-left: 8px;
+	font-family: GeorgiaFont;
+	font-size: 40px;
+	background: transparent;
+	color: #70bcf6;
+	border-color: transparent;
+}

@@ -1,0 +1,53 @@
+@font-face { font-family: ComicSans; src: url('../public/font/ComicSans.ttf');}
+@font-face { font-family: GeorgiaFont; src: url('../public/font/Georgia.ttf');}
+
+body 
+{
+	height: 100%;
+	position:relative;
+	margin: 0;
+	padding: 0;
+	background-color:#153f65;
+}
+
+#topMenu
+{
+	height: 142px;
+	width: auto; 
+	display: block;
+	background-color: #04203a;
+}
+
+.logoText
+{
+	font-size: 42px;
+	font-family: ComicSans;
+	color: #70bcf6;
+	float: left;
+	height: auto;
+	margin-left: 30px;
+}
+.loggedText
+{
+	font-size: 30px;
+	font-family: GeorgiaFont;
+	color: #70bcf6;
+	height: auto;
+	margin-top: 0px;
+	float: right;
+	margin-right: 16px;
+}
+.usernameText
+{
+	font-size: 40px;
+	font-family: GeorgiaFont;
+	color: white;	
+	position: relative;
+	width: auto;
+}
+#userContent
+{
+	height: 142px;
+	width: auto;
+	float: right;
+}
