@@ -75,6 +75,7 @@ body
 
 .loginSubmit
 {
+	outline: none;
 	clear: both;
 	float: right;
 	margin-top: 24px;
@@ -132,7 +133,7 @@ body
 	width: auto;
 }
 
-.submitButton
+.loginSubmit input:focus
 {
-	
+	outline: none;
 }

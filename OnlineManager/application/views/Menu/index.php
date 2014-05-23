@@ -19,7 +19,51 @@
 	</div>
 
 	<div id = "barMenu">
+		<ul>
+			<a href="menu/topBarAction/top=0">
+				<li>
+					<span>
+						<p>Home</p>
+						<img src = "public/images/icons/homeSelected.png">
+					</span>
+				</li>
+			</a>
 
+			<a href="menu/topBarAction/top=1">
+				<li>
+					<p>Projects</p>
+					<img src = "public/images/icons/projectsNonSelected.png">
+				</li>
+			</a>
+
+			<a href="menu/topBarAction/top=2">
+				<li>
+					<p>Tasks</p>
+					<img src = "public/images/icons/tasksNonSelected.png">
+				</li>
+			</a>
+
+			<a href="menu/topBarAction/top=3">
+				<li>
+					<p>Messages</p>
+					<img src = "public/images/icons/messagesNonSelected.png">
+				</li>
+			</a>
+
+			<a href="menu/topBarAction/top=4">
+				<li>
+					<p>Files</p>
+					<img src = "public/images/icons/filesNonSelected.png">
+				</li>
+			</a>
+
+			<a href="menu/topBarAction/top=5">
+				<li>
+					<p>Profile</p>
+					<img src = "public/images/icons/profileNonSelected.png">
+				</li>
+			</a>
+		</ul>
 	</div>
 
 </body>

@@ -27,7 +27,6 @@
 
 			<div class = "loginSubmit">
 				<input type = "Submit" name = "Submit1" value = "Login">		
-				
 			</div>
 	</div>
 	

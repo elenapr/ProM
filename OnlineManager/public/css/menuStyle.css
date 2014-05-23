@@ -69,3 +69,50 @@ body
 	margin-top: 2px;
 	height: 50px;
 }
+#barMenu ul
+{
+	margin: 0px;
+	width: auto;
+	height: auto;
+}
+
+#barMenu ul li
+{
+	height: 100%;
+	margin-left: 4px;
+	float: left;
+	list-style-type: none;
+	padding-left: 10px;
+	margin-top: 0px;
+	width: auto;
+	border-right: 1px solid #70bbf5;
+}
+
+#barMenu ul li p
+{
+	font-family: GeorgiaFont;
+	font-size: 24px;
+	color: #70bcf6;
+	margin: 0px;
+	width: auto;
+	float: left;
+	padding-top: 10px;
+}
+#barMenu ul li img
+{
+	padding-top: 7px;
+	margin-left: 10px;
+	float: right;
+	margin-right: 10px;
+}
+
+#barMenu ul li span p
+{
+	font-family: GeorgiaFont;
+	font-size: 24px;
+	color: white;
+	margin: 0px;
+	width: auto;
+	float: left;
+	padding-top: 10px;
+}
