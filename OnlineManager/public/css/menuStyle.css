@@ -18,36 +18,54 @@ body
 	background-color: #04203a;
 }
 
-.logoText
+#topMenu img
+{
+	vertical-align: middle; 
+	margin-top:11px;
+	margin-left:11px;
+	float:left;
+}
+
+#topMenu p
 {
 	font-size: 42px;
 	font-family: ComicSans;
 	color: #70bcf6;
 	float: left;
 	height: auto;
-	margin-left: 30px;
+	margin-left: 30px;	
 }
-.loggedText
-{
-	font-size: 30px;
-	font-family: GeorgiaFont;
-	color: #70bcf6;
-	height: auto;
-	margin-top: 0px;
-	float: right;
-	margin-right: 16px;
-}
-.usernameText
-{
-	font-size: 40px;
-	font-family: GeorgiaFont;
-	color: white;	
-	position: relative;
-	width: auto;
-}
+
 #userContent
 {
 	height: 142px;
 	width: auto;
 	float: right;
+}
+
+#userContent p
+{
+	font-size: 40px;
+	font-family: GeorgiaFont;
+	color: white;	
+	position: relative;
+	width: auto;	
+}
+
+#userContent span
+{
+	font-size: 40px;
+	font-family: GeorgiaFont;
+	color: #70bcf6;	
+	position: relative;
+	width: auto;	
+}
+
+#barMenu
+{
+	width: 100%;
+	height: auto;
+	background-color: #04203a;
+	margin-top: 2px;
+	height: 50px;
 }

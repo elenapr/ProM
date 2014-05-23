@@ -4,7 +4,6 @@
 body 
 {
 	height: 100%;
-	position:relative;
 	margin: 0;
 	padding: 0;
 	background-color:#153f65;
@@ -15,20 +14,87 @@ body
 	background-color: #072242;
 	width: 440px;
 	height: 303px;
-	margin-top: 0px;
+	margin-top: 100px;
 	margin-right: auto;
 	margin-left:auto;
-	margin-bottom: 0px; 
 }
 
-#loginImage
+#logoContent
 {
-	float: left;
-	background:url(../public/images/logoImage.png) no-repeat;
-	width: 100px;
-	height: 96px;
-	margin: 8px;
+	height: auto;
+	margin: 0px;
+	width: 100%;
+
 }
+#logoContent img
+{
+	margin-top: 8px;
+	margin-left: 8px;
+	float: left;
+}
+#logoContent p
+{
+	width: auto;
+	font-family:ComicSans;
+	font-size:30px;
+	margin-left: 28px;
+	display: inline-block;
+	color: #70bcf6;
+	vertical-align: middle;
+}
+
+#loginForm form
+{
+	margin-top: 10px;
+	position: relative;
+}
+.formContent
+{	
+	margin-left: 16%;
+	width: auto;
+	display: inline-block;
+}
+
+.formContent img
+{
+	width: auto;
+	height: auto;
+}
+
+.formContent input
+{
+	background-color: #153f65;
+	color: #70bcf6;
+	width: auto;
+	height: auto;
+	margin-left: 10px;
+	font-family:ComicSans;
+	font-size: 20px;
+	border-color: transparent;
+}
+
+.loginSubmit
+{
+	clear: both;
+	float: right;
+	margin-top: 24px;
+}
+.loginSubmit input
+{
+	font-family: GeorgiaFont;
+	font-size: 40px;
+	background: transparent;
+	color: #70bcf6;
+	border-color: transparent;
+	margin-left: 10px;
+}
+.loginSubmit img
+{
+	width: 50px;
+	height: 50px;
+	margin-right: 10px;
+}
+
 #loginText
 {
 	font-family:ComicSans;
@@ -43,7 +109,6 @@ body
 {
 	width: auto;
 	height: auto;
-	margin-top: 18px;
 	display: inline-block;
 }
 .textField
@@ -69,10 +134,5 @@ body
 
 .submitButton
 {
-	margin-left: 8px;
-	font-family: GeorgiaFont;
-	font-size: 40px;
-	background: transparent;
-	color: #70bcf6;
-	border-color: transparent;
+	
 }

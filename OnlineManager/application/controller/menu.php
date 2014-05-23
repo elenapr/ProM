@@ -1,16 +1,19 @@
 <?php
 
+require 'application/libs/View.php';
+
 class Menu extends Controller
 {	
-	public $caca;
+	var $caca;
 
 	public function index()
 	{
-		$view = new View("LALA");
-		//require 'application/views/Menu/index.php';
+		$this->caca = "MAMA";
 
-		//$this->caca = "MATA";
-		
+		$view = new View('Menu','index');
+		$view->render();
+
+		//require 'application/views/Menu/index.php';
 	}
 }
 
