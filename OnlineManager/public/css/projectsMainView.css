@@ -1,0 +1,69 @@
+
+body {
+	background-color:rgb(21,63,101);
+}
+
+div {
+	font-family: 'Georgia';
+	font-size: 17px;
+	margin: 0px;
+	padding: 0;
+}
+
+#menu a:link{
+  color : #5EA3D9;
+}
+
+#menu li {
+	display:inline;
+	border-right: 1px solid #5EA3D9;
+	padding: 7px;
+}
+
+#menu a {
+	text-decoration: none;
+	width:60px;
+}
+
+/*#menu a: hover {
+	color: #5EA3D9;
+    background-color: #5EA3D9;
+}
+*/
+ol {
+	margin-left:20px;
+	margin-bottom: 0px;
+	font-size: 30px;
+}
+
+.projectsMainView {
+}
+
+.projectsMainView li {
+	border-bottom: 1px solid #FFFFFF;
+	width: 800px;
+}
+
+.projectsMainView li {
+	color: #FFFFFF;
+}
+
+ol .projectName {
+	font-size: 30px;
+	text-align:left;
+	display: inline-block;
+	margin-bottom: 2px;
+	margin-top: 2px;
+}
+
+ol .daysRemains {
+	font-size: 17px;
+	color: #F89E9E;
+	display: inline-block;
+	margin-bottom: 2px;
+	margin-top: 2px;
+}
+
+ol .addedBy, .dateAdded {
+	font-size: 17px;
+}
