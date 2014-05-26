@@ -23,17 +23,17 @@
 		<ul>
 			<a href="projects/topBarAction/top=0">
 				<li>
-					<span>
-						<p>Home</p>
-						<img src = "public/images/icons/homeSelected.png">
-					</span>
+					<p>Home</p>
+					<img src = "public/images/icons/homeSelected.png">
 				</li>
 			</a>
 
 			<a href="projects/topBarAction/top=1">
 				<li>
+					<span>
 					<p>Projects</p>
 					<img src = "public/images/icons/projectsNonSelected.png">
+					</span>
 				</li>
 			</a>
 
