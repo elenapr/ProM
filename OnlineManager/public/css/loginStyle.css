@@ -1,3 +1,50 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
 @font-face { font-family: ComicSans; src: url('../public/font/ComicSans.ttf');}
 @font-face { font-family: GeorgiaFont; src: url('../public/font/Georgia.ttf');}
 
@@ -14,6 +61,7 @@ body
 	background-color: #072242;
 	width: 440px;
 	height: 303px;
+	border-radius: 1em;
 	margin-top: 100px;
 	margin-right: auto;
 	margin-left:auto;
@@ -37,6 +85,7 @@ body
 	width: auto;
 	font-family:ComicSans;
 	font-size:30px;
+	margin-top: 15px;
 	margin-left: 28px;
 	display: inline-block;
 	color: #70bcf6;
@@ -59,18 +108,20 @@ body
 {
 	width: auto;
 	height: auto;
+
 }
 
 .formContent input
 {
 	background-color: #153f65;
 	color: #70bcf6;
-	width: auto;
-	height: auto;
+	width: 250px;
+	height: 35px;
 	margin-left: 10px;
 	font-family:ComicSans;
 	font-size: 20px;
 	border-color: transparent;
+	
 }
 
 .loginSubmit
@@ -136,4 +187,30 @@ body
 .loginSubmit input:focus
 {
 	outline: none;
+}
+#username {
+  border-radius: 0.5em;
+}
+#password {
+  border-radius: 0.5em;
+}
+input[type=Submit] {
+  padding: 0 35px;
+  height: 35px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #9EA1C0;
+  text-shadow: 0 1px #072242;
+  background: #123E5F;
+  border: 1px ;
+  border-radius: 30px;
+  outline: 0;
+  margin-right: 15px;
+  
+}
+input[type=Submit]:active {
+  background: #cde5ef;
+  border-color: #9eb9c2 #b3c0c8 #b4ccce;
+  -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.2);
 }
