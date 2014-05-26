@@ -22,7 +22,6 @@ class Login extends Controller
    	    $home = new Menu();
    	    $home->index();
 */
-		return;
 
 		// In cazul in care user-ul se logheaza, action-ul este tot aceasta functie in care se pun in POST parametrii pentru username si password
 		$username = $_POST['username'];
