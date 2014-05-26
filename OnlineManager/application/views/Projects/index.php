@@ -24,7 +24,7 @@
 			<a href="projects/topBarAction/top=0">
 				<li>
 					<p>Home</p>
-					<img src = "public/images/icons/homeSelected.png">
+					<img src = "public/images/icons/homeNonSelected.png">
 				</li>
 			</a>
 
@@ -32,7 +32,7 @@
 				<li>
 					<span>
 					<p>Projects</p>
-					<img src = "public/images/icons/projectsNonSelected.png">
+					<img src = "public/images/icons/projectsSelected.png">
 					</span>
 				</li>
 			</a>
@@ -69,29 +69,27 @@
 	
 	<div id="menu">
 			<ul>
-				<li><a href="NewProject.html">Create new project</a></li>
-				<li><a href="MyProjects.html">My projects</a></li>
-				<li><a href="FinishedProjects.html">Finished projects</a></li>
+				<li><a href="newProject.php">Create new project</a></li>
+				<li><a href="myProjects.php">My projects</a></li>
+				<li><a href="finishedProjects.php">Finished projects</a></li>
 			</ul>
 		</div>
 
 		<div class="projectsMainView">
 			<ol id="projects">
 				<li>
-					<p class="projectName">Online Project Manager</p>
+					<a href="projectName.php" class="projectName">Online Project Manager</a>
 					<p class="daysRemains"> - 154 days remains</p>
 					<p class="addedBy">Added By: Ionescu Mihai</p>
 					<p class="dateAdded">Date added: 22-05-2014</p>
 				</li>
 				<li>
-					<p class="projectName">Online Project Manager</p>
+					<a href="nameProject.php" class="projectName">Online Project Manager</a>
 					<p class="daysRemains"> - 154 days remains</p>
 					<p class="addedBy">Added By: Ionescu Mihai</p>
 					<p class="dateAdded">Date added: 22-05-2014</p>
 				</li>
 			</ol>
-
+		</div>
 </body>
-
-
 </html>
