@@ -15,7 +15,7 @@ class Login extends Controller
 		$_SESSION['user_data']=	$user_data;
 		session_commit();
 
-		header('Location: projects');
+		header('Location: menu');
 		exit();		
 
 /* 		require './application/controller/menu.php';
