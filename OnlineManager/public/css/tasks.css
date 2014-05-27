@@ -94,8 +94,8 @@ body {
 	background-color:rgb(21,63,101);
 }
 .contentTask {
-   margin-top:1%;
-   margin-bottom:10%;
+   margin-top:0%;
+   margin-bottom:5%;
    width :80%;
 }
 #projectTask p {
@@ -172,11 +172,7 @@ color: #70bcf6;
 }
 /* ADD
 ------------------------------------------------------------------------------------------------------------------------------- */
-.addTask {
-  float: right;
-/*  font-size:20px; 
-  text-decoration: none;*/
-}
+
 li {
     position:relative;
     z-index:1;
@@ -289,5 +285,23 @@ li a:active:before {
 
 #projectTask form{
    float: right;
-   margin-right: 300px;
+   margin-right: 0px;
+}
+#projectTask label {
+    width: auto;
+    font-family:Georgia;
+    font-size:20px;
+    margin-top: 80px;
+    margin-left: 150px;
+    color: #FFFFFF;
+    vertical-align: middle;
+
+}
+.addTask {
+ 
+  font-size:30px; 
+  text-decoration: none;
+  margin-top: 50px;
+  position: relative;
+  margin-left: 120px;
 }

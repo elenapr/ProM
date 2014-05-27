@@ -24,23 +24,25 @@
 			<a href="projects/topBarAction/top=0">
 				<li>
 					<p>Home</p>
-					<img src = "public/images/icons/homeSelected.png">
+					<img src = "public/images/icons/homeNonSelected.png">
 				</li>
 			</a>
 
 			<a href="projects/topBarAction/top=1">
 				<li>
-					<span>
+					
 					<p>Projects</p>
 					<img src = "public/images/icons/projectsNonSelected.png">
-					</span>
+					
 				</li>
 			</a>
 
 			<a href="projects/topBarAction/top=2">
 				<li>
+					<span>
 					<p>Tasks</p>
-					<img src = "public/images/icons/tasksNonSelected.png">
+					<img src = "public/images/icons/tasksSelected.png">
+					</span>
 				</li>
 			</a>
 
@@ -66,10 +68,11 @@
 			</a>
 		</ul>
 	</div>
-	<div class="contentTask">
 	<div class="addTask">
 		<li class="add"><a href="#non">Add new task</a></li>
 	</div>
+	<div class="contentTask">
+	
 	<div id="projectTask">
 		<p> Open Task   - Project Name</p>
 		<form name="myform">

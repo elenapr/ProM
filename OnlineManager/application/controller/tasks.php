@@ -1,5 +1,5 @@
 <?php
-
+require 'application/libs/View.php';
 class Tasks extends Controller
 {
 	public function index()
