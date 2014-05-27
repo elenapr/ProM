@@ -1,0 +1,293 @@
+   /**
+    * html5doctor.com Reset Stylesheet v1.6.1 (http://html5doctor.com/html-5-reset-stylesheet/)
+    * Richard Clark (http://richclarkdesign.com)
+    * http://cssreset.com
+    */
+    html, body, div, span, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    abbr, address, cite, code,
+    del, dfn, em, img, ins, kbd, q, samp,
+    small, strong, sub, sup, var,
+    b, i,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, figcaption, figure,
+    footer, header, hgroup, menu, nav, section, summary,
+    time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    }
+    body {
+    line-height:1;
+    }
+    article,aside,details,figcaption,figure,
+    footer,header,hgroup,menu,nav,section {
+    display:block;
+    }
+    nav ul {
+    list-style:none;
+    }
+    blockquote, q {
+    quotes:none;
+    }
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+    content:'';
+    content:none;
+    }
+    a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    }
+    /* change colours to suit your needs */
+    ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+    }
+    /* change colours to suit your needs */
+    mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+    }
+    del {
+    text-decoration: line-through;
+    }
+    abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+    }
+    table {
+    border-collapse:collapse;
+    border-spacing:0;
+    }
+    /* change border colour to suit your needs */
+    hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+    }
+    input, select {
+    vertical-align:middle;
+    }
+
+
+
+@font-face { font-family: ComicSans; src: url('../public/font/ComicSans.ttf');}
+@font-face { font-family: GeorgiaFont; src: url('../public/font/Georgia.ttf');}
+
+body {
+	background-color:rgb(21,63,101);
+}
+.contentTask {
+   margin-top:1%;
+   margin-bottom:10%;
+   width :80%;
+}
+#projectTask p {
+    width: auto;
+    font-family:Georgia;
+    font-size:20px;
+    margin-top: 80px;
+    margin-left: 150px;
+    color: #FFFFFF;
+    vertical-align: middle;
+
+}
+.OpenTask {
+  border-collapse: separate;
+  border-spacing: 0;
+  border-top:1px solid #cecfd5;
+  color: #4a4a4d;
+  font-family: Comic;
+  font-size:10px/1.2;
+  margin-top: 30px;
+  margin-left: 120px;
+
+}
+
+th{
+  padding: 5px 60px ;
+  vertical-align: middle;
+  font-family:Comic;
+  font-size:18px;
+  color: #FFFFFF;
+
+}
+
+td {
+  padding: 5px 60px ;
+  vertical-align: middle;
+  font-family:Georgia;
+  font-size:15px;
+  color: #FFFFFF;
+
+}
+
+.OpenTask,thead , th{
+color: #70bcf6;
+}
+
+
+.ClosedTask {
+  border-collapse: separate;
+  border-spacing: 0;
+  border-top:1px solid #cecfd5;
+  color: #4a4a4d;
+  font: 10px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-top: 2%;
+  margin-left: 120px;
+  display: inline-block;
+}
+
+.CloseTask ,thead , th{
+color: #70bcf6;
+}
+
+.sageata  {
+    width : 30px;
+    height: 30px;
+    }
+.ClosedTask td {
+  padding: 5px 60px ;
+  vertical-align: middle;
+  font-family:Georgia;
+  font-size:15px;
+  color: #FFFFFF;
+
+}
+/* ADD
+------------------------------------------------------------------------------------------------------------------------------- */
+.addTask {
+  float: right;
+/*  font-size:20px; 
+  text-decoration: none;*/
+}
+li {
+    position:relative;
+    z-index:1;
+    overflow:hidden;
+    list-style:none;
+    padding:0;
+    margin:0 0 0.25em;
+
+}
+
+li a:link, 
+li a:visited {
+    display:block;
+    border:0;
+    padding-left:28px;
+    color:#70bcf6;
+}
+
+li a:hover, 
+li a:focus, 
+li a:active {
+    color:#730800;
+    background:transparent;
+}
+
+li:before, 
+li:after,
+li a:before, 
+li a:after {
+    content:"";
+    position:absolute;
+    top:50%;
+    left:0;
+}
+
+li a:before, 
+li a:after {
+    margin:-8px 0 0;
+    background:#70bcf6;
+}
+
+li a:hover:before, 
+li a:focus:before, 
+li a:active:before {
+    background:#730800;
+}
+
+.add a:before {
+    width:16px; 
+    height:16px; 
+    /* css3 */
+    -webkit-border-radius:16px; 
+    -moz-border-radius:16px; 
+    border-radius:16px;
+}
+
+.add a:after {
+    left:3px; 
+    width:10px; 
+    height:2px; 
+    margin-top:-1px; 
+    background:#fff;
+}
+
+.add:before {
+    z-index:10; 
+    left:7px; 
+    width:2px; 
+    height:10px; 
+    margin-top:-5px;
+    background:#fff;
+}
+/* EDIT
+------------------------------------------------------------------------------------------------------------------------------- */
+
+.edit a:before {
+    left:3px;
+    width:5px;
+    height:5px;
+    margin-top:2px;
+    background:#c55500;
+    -webkit-transform:skew(-10deg, -10deg);
+    -moz-transform:skew(-10deg, -10deg);
+    -o-transform:skew(-10deg, -10deg);
+    transform:skew(-10deg, -10deg);
+}
+
+.edit a:after {
+    left:3px;
+    width:13px;
+    height:6px;
+    border-left:1px solid #fff;
+    margin-top:-3px;
+    /* css3 */
+    -webkit-transform:rotate(-45deg);
+    -moz-transform:rotate(-45deg);
+    -o-transform:rotate(-45deg);
+    transform:rotate(-45deg);
+}
+
+.edit a:hover:before,
+.edit a:focus:before,
+.edit a:active:before,
+.edit a:hover:after,
+.edit a:focus:after,
+.edit a:active:after {
+    background:#730800;
+}
+
+
+#projectTask form{
+   float: right;
+   margin-right: 300px;
+}
