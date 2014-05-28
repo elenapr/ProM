@@ -67,29 +67,31 @@
 		</ul>
 	</div>
 	
-	<div id="menu">
-			<ul>
-				<li><a href="newProject.php">Create new project</a></li>
-				<li><a href="myProjects.php">My projects</a></li>
-				<li><a href="finishedProjects.php">Finished projects</a></li>
-			</ul>
-		</div>
+	<div id="content">
+		<div id="menu">
+				<ul>
+					<li><a href="newProject.php">Create new project</a></li>
+					<li><a href="myProjects.php">My projects</a></li>
+					<li><a href="finishedProjects.php">Finished projects</a></li>
+				</ul>
+			</div>
 
-		<div class="projectsMainView">
-			<ol id="projects">
-				<li>
-					<a href="projectName.php" class="projectName">Online Project Manager</a>
-					<p class="daysRemains"> - 154 days remains</p>
-					<p class="addedBy">Added By: Ionescu Mihai</p>
-					<p class="dateAdded">Date added: 22-05-2014</p>
-				</li>
-				<li>
-					<a href="nameProject.php" class="projectName">Online Project Manager</a>
-					<p class="daysRemains"> - 154 days remains</p>
-					<p class="addedBy">Added By: Ionescu Mihai</p>
-					<p class="dateAdded">Date added: 22-05-2014</p>
-				</li>
-			</ol>
+			<div class="projectsMainView">
+				<ol id="projects">
+					<li>
+						<a href="projectName.php" class="projectName">Online Project Manager</a>
+						<p class="daysRemains"> - 154 days remains</p>
+						<p class="addedBy">Added By: Ionescu Mihai</p>
+						<p class="dateAdded">Date added: 22-05-2014</p>
+					</li>
+					<li>
+						<a href="nameProject.php" class="projectName">Online Project Manager</a>
+						<p class="daysRemains"> - 154 days remains</p>
+						<p class="addedBy">Added By: Ionescu Mihai</p>
+						<p class="dateAdded">Date added: 22-05-2014</p>
+					</li>
+				</ol>
+			</div>
 		</div>
 </body>
 </html>

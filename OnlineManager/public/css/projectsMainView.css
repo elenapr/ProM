@@ -52,17 +52,22 @@ body {
 	background-color:rgb(21,63,101);
 }
 
+#content {
+	width: 80%;
+	height: auto;
+	position: relative;
+	margin: 0px auto;
+	margin-top: 10px;
+}
+
 div {
 	font-family: 'Georgia';
-	font-size: 17px;
-	margin: 0px;
-	padding: 0;
+	font-size: 25px;
 }
 
 #menu {
-	padding: 10px;
-	margin-left: 35px;
-	/*margin-left: 10px;*/
+	padding: 15px 20px 20px 20px;
+	margin-left: 23px;
 }
 
  a:link{
@@ -95,14 +100,13 @@ ol {
 .projectsMainView {
 	margin-left: 45px;
 	padding: 10px;
-
 }
 
 .projectsMainView li {
 	border-bottom: 1px solid #FFFFFF;
 	margin-bottom: 5px;
 	width: 99%;
-	padding: 7px;
+	padding: 10px;
 }
 
 .projectsMainView li {
@@ -110,7 +114,7 @@ ol {
 }
 
 ol .projectName {
-	font-size: 30px;
+	font-size: 40px;
 	text-align:left;
 	display: inline;
 	margin-bottom: 2px;
@@ -118,7 +122,7 @@ ol .projectName {
 }
 
 ol .daysRemains {
-	font-size: 17px;
+	font-size: 20px;
 	color: #F89E9E;
 	display: inline;
 	margin-bottom: 2px;
@@ -127,7 +131,7 @@ ol .daysRemains {
 }
 
 ol .addedBy, .dateAdded {
-	font-size: 17px;
+	font-size: 20px;
 	padding-top: 20px;
 }
 
