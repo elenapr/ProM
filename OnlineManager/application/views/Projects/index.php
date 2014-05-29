@@ -70,7 +70,7 @@
 	<div id="content">
 		<div id="menu">
 				<ul>
-					<li><a href="newProject.php">Create new project</a></li>
+					<li><a href="projects/addNewProject">Create new project</a></li>
 					<li><a href="myProjects.php">My projects</a></li>
 					<li><a href="finishedProjects.php">Finished projects</a></li>
 				</ul>

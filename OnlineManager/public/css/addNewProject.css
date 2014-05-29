@@ -1,0 +1,163 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+ margin: 0;
+ padding: 0;
+ border: 0;
+ font-size: 100%;
+ font: inherit;
+ vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+ display: block;
+}
+
+body {
+ line-height: 1;
+}
+
+/*ol, ul {
+ list-style: none;
+}*/
+
+blockquote, q {
+ quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+ content: '';
+ content: none;
+}
+
+table {
+ border-collapse: collapse;
+ border-spacing: 0;
+}
+
+
+body {
+	background-color: #153F65;
+}
+
+#content {
+	width: 80%;
+	height: auto;
+	position: relative;
+	margin: 0px auto;
+	margin-top: 10px;
+}
+
+div {
+	font-family: 'Georgia';
+	font-size: 25px;
+}
+
+#menu {
+	padding: 15px 20px 30px 20px;
+	margin-left: 23px;
+}
+
+ a:link{
+  color : #5EA3D90
+}
+
+#menu li {
+	display:inline;
+	border-right: 1px solid #5EA3D9;
+	padding-right: 7px;
+}
+
+#menu a {
+	text-decoration: none;
+	width:60px;
+	color: #5EA3D9;
+}
+
+a: hover {
+  	text-decoration: none;
+  	cursor: pointer;
+}
+
+.projectName label, input {
+	padding: 10px;
+	margin-left: 34px;
+	margin-bottom: 30px;
+}
+
+label {
+	color: #FFFFFF;
+}
+
+input {
+  	display: inline-block;
+}
+
+input.text {
+	font-size: 16px;
+	width: auto;
+	height: 6%;
+	font-family: Georgia;
+}
+
+.addUser {
+	color: #FFFFFF;
+	padding: 10px;
+	margin-left: 34px;
+	border-bottom: 1px solid #FFFFFF;
+}
+
+.users {
+	color: #FFFFFF;
+	padding: 10px;
+	margin-left: 34px;
+}
+
+ol {
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+#user {
+	padding: 10px;
+}
+
+#user p {
+	display: inline-block;
+}
+
+#remove {
+	text-decoration: none;
+	float: right;
+	color: #F14040;
+}
+
+select {
+	width: auto;
+	height: 5%;
+	font-size: 15px;
+	font-family: Georgia;
+}
+
+#save {
+	background: #153F65;
+	color: #FFFFFF;
+	font-size: 100%;
+	margin-left: 40%;
+	margin-top: 5%;
+	font-family: Georgia; 
+	border: none;
+}

@@ -8,6 +8,12 @@ class Projects extends Controller
 		$view->render();
 	}
 	
+	public function addNewProject()
+	{
+		$view = new View('Projects','addNewProject');
+		$view->render();
+	}
+	
 	public function topBarAction($tag)
 	{	
 		switch ($tag) 
