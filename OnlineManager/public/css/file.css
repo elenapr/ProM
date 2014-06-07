@@ -9,8 +9,8 @@ color: #333;
 }
 .container {
   margin-top: 0%;
-  margin-left: 10%;
-  width: 80%;
+  margin-left: 15%;
+  width: 70%;
 }
 h2 { 
 border-bottom: 1px solid #fff; 
@@ -21,6 +21,7 @@ line-height: 1.8em;
 font-weight: 500; 
 margin-bottom: 25px; 
 padding: 12px 0; 
+width: 90%;
 text-align: left; 
 }
 .customfile-container * {
