@@ -124,27 +124,20 @@ input.text {
 	color: #FFFFFF;
 	padding: 10px;
 	margin-left: 34px;
+	display: inline-block;
 }
 
 ol {
 	margin-left: 30px;
-	margin-top: 10px;
+	/*margin-top: 10px;*/
 }
 
-#user {
-	padding: 10px;
+.user {
+	/*padding: 10px;*/
 }
 
-#user p {
+.user p{
 	display: inline-block;
-}
-
-#remove {
-	float: right;
-	color: #F14040;
-	background: none;
-	border: none;
-	font-size: 95%;
 }
 
 select {
@@ -162,4 +155,14 @@ select {
 	margin-top: 5%;
 	font-family: Georgia; 
 	border: none;
+}
+
+.delete  {
+	clear: all;
+	color: #F14040;
+	background: none;
+	border: none;
+	font-size: 95%;
+	margin-left: 100%;
+	margin-bottom: 0px;
 }

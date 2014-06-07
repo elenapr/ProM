@@ -2,7 +2,7 @@
 
 <head>
 	<link rel="stylesheet" href="../public/css/menuStyle.css" type="text/css">
-	<link rel="stylesheet" href="../public/css/addNewProject.css" type="text/css"/>
+	<link rel="stylesheet" type="text/css" href="../public/css/profileStyle.css" />
 </head>
 	
 <body>
@@ -68,50 +68,31 @@
 	</div>
 	
 	<div id="content">
-		<div id="menu">
-			<ul>
-				<li><a href="projects/addProjects">Create new project</a></li>
-				<li><a href="myProjects.php">My projects</a></li>
-				<li><a href="finishedProjects.php">Finished projects</a></li>
-			</ul>
-		</div>
+		<div id="profile">
+			<form class="myProfile">
+				<label>Name: </label>
+				<input type="text" value="Prisacaru Madalina Elena" name="name" id="name"/>
+			</form>
 
-		<div class="projectName">
-			<label>Name:</label>
-			<input type="text" name="projectName" class="text">
-		</div>
+			<form class="myProfile">
+				<label>Username: </label>
+				<input type="text" name="username" value="elena.prisacaru" name="username" id="username"/>
+			</form>
 
-		<div class="addUser">
-			<form>
-			<label>Users/Add New User: </label>
-			<select>
-				<option>Chelariu Madalina Georgiana</option>
-				<option>Chirila Vasile Tiberiu</option>
-				<option>Prisacaru Madalina Elena</option>
-			</select>
-			<form>
-		</div>
+			<form class="myProfile">
+				<label>Data Nasterii: </label>
+				<input type="date" name="dataNasterii" id="dataNasterii"/>
+			</form>
 
-		<div class="users">
-			<table>
-				<li class="user">
-					<p>Chirila Vasile Tiberiu</p>
-					<input type="submit" value="Remove" name="remove" class="delete">
-				</li>
-				<li class="user">
-					<p>Chirila Vasile Tiberiu</p>
-					<input type="submit" value="Remove" name="remove" class="delete">
-				</li>
-				<li class="user">
-					<p>Chirila Vasile Tiberiu</p>
-					<input type="submit" value="Remove" name="remove" class="delete">
-				</li>
-			</table>
-		</div>
+			<form class="myProfile">
+				<label id="job">Job: </label>
+				<input type="radio" name="job" value="admin" class="job" id="idJob"/>Admin
+				<input type="radio" name="job" value="developer" class="job" />Developer
+			</form>
 
-		<div class="saveSubmit">
-			<input type="submit" value="SAVE" name="saveSubmit" id="save">
+			<form class="saveSubmit">
+				<input type="submit" value="Save" name="saveSubmit" id="save"/>
+			</form>
 		</div>
-	</div>
 </body>
 </html>

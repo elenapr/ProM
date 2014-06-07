@@ -34,7 +34,6 @@ body
 	float: left;
 	height: auto;
 	margin-left: 30px;	
-
 }
 
 #userContent
@@ -69,7 +68,6 @@ body
 	background-color: #04203a;
 	margin-top: 2px;
 	height: 50px;
-	
 }
 #barMenu ul
 {
@@ -117,4 +115,118 @@ body
 	width: auto;
 	float: left;
 	padding-top: 10px;
+}
+
+#content
+{
+	width: 80%;
+	height: auto;
+	position: relative;
+	margin: 0px auto;
+	margin-top: 10px;
+}
+
+#newProject
+{
+	width: 100%;
+	height: auto;
+}
+
+.newProjectContent
+{
+	width: 100%;
+	height: auto;
+}
+
+.newProjectContent p
+{
+	padding-top: 20px;
+	font-family: GeorgiaFont;
+	font-size: 30px;
+	color: #6ab3eb;
+	margin: 0px;
+	width: auto;	
+}
+
+.tableContent
+{
+	margin-top: 20px;
+	width: 100%;
+	height: auto;
+}
+
+.topTable
+{
+	width: 100%;
+	height: auto;
+	border-bottom: 1px solid white;
+	display: inline-block;
+}
+.topTable p
+{
+	font-family: GeorgiaFont;
+	font-size: 24px;
+	color: white;	
+	display: inline-block;
+	width: auto;
+}
+.topTable img
+{
+	margin-top: 30px;
+	float: right;
+}
+
+.tableContent
+{
+	width: 100%;
+	height: auto;
+}
+
+.tableContent table
+{
+	line-height: 50px;
+	width: 100%;
+	height: auto;
+}
+.tableContent table tr td
+{
+	color: white;
+	text-align: left;	
+	font-size: 24px;
+}
+.myTh1
+{
+	text-align: left;
+	font-weight: normal;
+	font-size: 24px;
+	font-family: GeorgiaFont;
+	width: 10%;
+	color: white;
+}
+.myTh2
+{	
+	text-align: left;
+	font-weight: normal;
+	font-size: 24px;
+	font-family: GeorgiaFont;
+	color: white;
+	width: 40%;
+}
+.myTh3
+{
+	text-align: left;
+	font-weight: normal;
+	font-size: 24px;
+	font-family: GeorgiaFont;
+	color: white;
+	width: 30%;
+}
+.myTh4
+{
+	text-align: left;
+	font-weight: normal;
+	font-size: 24px;
+	font-family: GeorgiaFont;
+	color: white;
+	width: 20%;
 }
