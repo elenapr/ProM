@@ -140,9 +140,11 @@ ol {
 }
 
 #remove {
-	text-decoration: none;
 	float: right;
 	color: #F14040;
+	background: none;
+	border: none;
+	font-size: 95%;
 }
 
 select {

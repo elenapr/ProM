@@ -48,36 +48,18 @@ table {
  border-spacing: 0;
 }
 
+
 body {
-	background-color:rgb(21,63,101);
-}
-
-#content {
-	width: 80%;
-	height: auto;
-	position: relative;
-	margin: 0px auto;
-	margin-top: 10px;
-}
-
-div {
-	font-family: 'Georgia';
-	font-size: 25px;
+	background-color: #153F65;
 }
 
 #menu {
 	padding: 15px 20px 20px 20px;
-	margin-left: 23px;
-}
-
- a:link{
-  color : #5EA3D90
+	margin-left: 1%
 }
 
 #menu li {
 	display:inline;
-	border-right: 1px solid #5EA3D9;
-	padding-right: 7px;
 }
 
 #menu a {
@@ -86,71 +68,52 @@ div {
 	color: #5EA3D9;
 }
 
-a: hover {
-  	text-decoration: none;
-  	cursor: pointer;
+#content {
+	width: 80%;
+	height: auto;
+	position: relative;
+	margin: 0px auto;
+	margin-top: 1%;
+	font-family: 'Georgia';
+	font-size: 150%;
 }
 
-ol {
-	margin-left:20px;
-	margin-bottom: 0px;
-	font-size: 30px;
+.subject {
+	padding: 2%;
 }
 
-.projectsMainView {
-	margin-left: 45px;
-	padding: 10px;
-}
-
-.projectsMainView li {
-	border-bottom: 1px solid #FFFFFF;
-	margin-bottom: 5px;
-	width: 99%;
-	padding: 10px;
-}
-
-.projectsMainView li {
+.subject label {
 	color: #FFFFFF;
+	padding: 1%;
 }
 
-ol .projectName {
-	font-size: 40px;
-	text-align:left;
-	display: inline;
-	margin-bottom: 2px;
-	margin-top: 2px;
+.subject  input {
+	height: 30px;
+	width: 200px;
 }
 
-ol .daysRemains {
-	font-size: 20px;
-	color: #F89E9E;
-	display: inline;
-	margin-bottom: 2px;
-	margin-top: 2px;
-	padding: 50px;
+.description {
+	padding: 2%;
 }
 
-ol .addedBy, .dateAdded {
-	font-size: 20px;
-	padding-top: 20px;
-}
-
-a.projectName {
-	text-decoration: none;
-	width:60px;
+.description label {
 	color: #FFFFFF;
+	padding: 1%;
 }
-.completeProject {
-	float: right;
-	color: red;
+
+.description  input {
+	height: 30px;
+	width: 500px;
+}
+
+.addMessage {
+	padding:  3%;
+}
+
+.addMessage input {
 	background: none;
-}
-
-.a {
-	display: block;
-}
-
-.b {
-	display: inline-block;
-	float: right;
+	border: 1px solid;
+	color: #FFFFFF;
+	font-size: 95%;
+	padding: 1%;
 }

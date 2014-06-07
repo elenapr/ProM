@@ -79,10 +79,17 @@
 			<div class="projectsMainView">
 				<ol id="projects">
 					<li>
+						<div class="a">
 						<a href="projectName.php" class="projectName">Online Project Manager</a>
 						<p class="daysRemains"> - 154 days remains</p>
 						<p class="addedBy">Added By: Ionescu Mihai</p>
 						<p class="dateAdded">Date added: 22-05-2014</p>
+						</div>
+						<div class="b">
+						<p class="completeProject">
+							<input type="submit" value="Complete" name="complete"/>
+						</p> 
+						</div>
 					</li>
 					<li>
 						<a href="nameProject.php" class="projectName">Online Project Manager</a>

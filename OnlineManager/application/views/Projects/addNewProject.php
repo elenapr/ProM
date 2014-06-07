@@ -96,21 +96,21 @@
 			<ol>
 				<li id="user">
 					<p>Chirila Vasile Tiberiu</p>
-					<a id="remove" href="">Remove</a>
+					<input type="submit" value="Remove" name="remove" id="remove">
 				</li>
 				<li id="user">
 					<p>Chirila Vasile Tiberiu</p>
-					<a id="remove" href="">Remove</a>
+					<input type="submit" value="Remove" name="remove" id="remove">
 				</li>
 				<li id="user">
 					<p>Chirila Vasile Tiberiu</p>
-					<a id="remove" href="">Remove</a>
+					<input type="submit" value="Remove" name="remove" id="remove">
 				</li>
 			</ol>
 		</div>
 
 		<div class="saveSubmit">
-			<input type="Submit" value="SAVE" name="saveSubmit" id="save">
+			<input type="submit" value="SAVE" name="saveSubmit" id="save">
 		</div>
 	</div>
 </body>
